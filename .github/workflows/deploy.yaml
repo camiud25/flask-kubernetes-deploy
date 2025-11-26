@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
 env:
-  ECR_REPOSITORY: flask-app
+  ECR_REPOSITORY: flask-k8s
   EKS_CLUSTER_NAME: Kubernetes-demo 
   AWS_REGION: us-east-2
 
